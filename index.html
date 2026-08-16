@@ -1,0 +1,797 @@
+> .:
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>برای تو ♡</title>
+
+
+<style>
+
+/* =========================
+   ظاهر کلی صفحه
+========================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f6f3ef;
+    color: #292522;
+    font-family: 'Vazirmatn', Arial, sans-serif;
+}
+
+
+/* =========================
+   اندازه صفحه
+========================= */
+
+.container {
+    width: 100%;
+    max-width: 760px;
+    margin: auto;
+    padding: 55px 20px 70px;
+}
+
+
+/* =========================
+   قسمت بالای صفحه
+========================= */
+
+.header {
+    text-align: center;
+    padding: 30px 10px 35px;
+}
+
+.english-title {
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #978b80;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #756d66;
+    line-height: 2;
+    font-weight: 300;
+}
+
+
+/* =========================
+   کارت پلی لیست
+========================= */
+
+.playlist {
+    background: #ffffff;
+    border: 1px solid #e9e2da;
+    border-radius: 24px;
+    padding: 24px;
+
+    box-shadow:
+        0 16px 45px rgba(51, 43, 36, 0.06);
+}
+
+.intro {
+    text-align: center;
+    font-size: 14px;
+    line-height: 2.2;
+    color: #665e57;
+    margin: 0 5px 25px;
+}
+
+
+/* =========================
+   هر آهنگ
+========================= */
+
+.song {
+    padding: 18px 5px;
+    border-bottom: 1px solid #eee9e4;
+}
+
+.song:last-child {
+    border-bottom: none;
+}
+
+
+/* =========================
+   اسم آهنگ
+========================= */
+
+.song-header {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.music-icon {
+    width: 48px;
+    height: 48px;
+
+    border-radius: 13px;
+
+    background: #e4ddd5;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #776d64;
+
+    font-size: 19px;
+
+    flex-shrink: 0;
+}
+
+.song-info {
+    flex: 1;
+}
+
+.song-name {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.artist {
+    font-size: 11px;
+    color: #938980;
+    margin-top: 5px;
+}
+
+
+/* =========================
+   پلیر آهنگ
+========================= */
+
+audio {
+    width: 100%;
+    height: 38px;
+
+    margin-top: 12px;
+}
+
+
+/* =========================
+   متن پایین پلی لیست
+========================= */
+
+.note {
+    text-align: center;
+
+    font-size: 11px;
+
+    color: #9a9088;
+
+    margin-top: 25px;
+
+    line-height: 2;
+}
+
+
+/* =========================
+   فوتر
+========================= */
+
+.footer {
+    text-align: center;
+
+    color: #9b9188;
+
+    font-size: 11px;
+
+    margin-top: 32px;
+}
+
+
+/* =========================
+   نمایش موبایل
+========================= */
+
+@media (max-width: 520px) {
+
+    .container {
+        padding: 35px 16px 55px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    .playlist {
+        padding: 18px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<!-- =========================
+     HEADER
+========================= -->
+
+<header class="header">
+
+    <div class="english-title">
+        تولدت مبارک نفسم
+    </div>
+
+    <h1>
+        برای تو،تا همیشه ♡
+    </h1>
+
+    <div class="subtitle">
+
+        چند تا آهنگ که دلم می‌خواست
+        <br>
+        توی یک جای مخصوص برای تو باشن.
+
+    </div>
+
+</header>
+
+
+
+<!-- =========================
+     PLAYLIST
+========================= -->
+
+<section class="playlist">
+
+
+    <p class="intro">
+
+        این پلی‌لیست رو برای تو ساختم؛
+        <br>
+        هر آهنگش یه تکه کوچیک از حس منه.
+
+    </p>
+
+
+
+    <!-- آهنگ شماره ۱ -->
+
+    <div class="song">
+
+        <div class="song-header">
+
+            <div class="music-icon">
+                ♪
+            </div>
+
+            <div class="song-info">
+
+                <div class="song-name">
+                    گندم گون
+                </div>
+
+                <div class="artist">
+                    محسن چاووشی
+                </div>
+
+            </div>
+
+        </div>
+
+> .:
+<audio controls>
+
+            <source
+                src="music/song1.mp3"
+                type="audio/mpeg"
+            >
+
+            مرورگر شما از پخش این فایل پشتیبانی نمی‌کند.
+
+        </audio>
+
+    </div>
+
+
+
+    <!-- آهنگ شماره ۲ -->
+
+    <div class="song">
+
+        <div class="song-header">
+
+            <div class="music-icon">
+                ♪
+            </div>
+
+            <div class="song-info">
+
+                <div class="song-name">
+                    باب دلم
+                </div>
+
+                <div class="artist">
+                    محسن چاووشی
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <audio controls>
+
+            <source
+                src="music/song2.mp3"
+                type="audio/mpeg"
+            >
+
+            مرورگر شما از پخش این فایل پشتیبانی نمی‌کند.
+
+        </audio>
+
+    </div>
+
+
+
+    <!-- آهنگ شماره ۳ -->
+
+    <div class="song">
+
+        <div class="song-header">
+
+            <div class="music-icon">
+                ♪
+            </div>
+
+            <div class="song-info">
+
+                <div class="song-name">
+                    دیوونه
+                </div>
+
+                <div class="artist">
+                    محسن چاووشی
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <audio controls>
+
+            <source
+                src="music/song3.mp3"
+                type="audio/mpeg"
+            >
+
+            مرورگر شما از پخش این فایل پشتیبانی نمی‌کند.
+
+        </audio>
+
+    </div>
+
+
+
+    <!-- آهنگ شماره ۴ -->
+
+    <div class="song">
+
+        <div class="song-header">
+
+            <div class="music-icon">
+                ♪
+            </div>
+
+            <div class="song-info">
+
+                <div class="song-name">
+                    روزای سخت
+                </div>
+
+                <div class="artist">
+                    مصعود صادقلو
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <audio controls>
+
+            <source
+                src="music/song4.mp3"
+                type="audio/mpeg"
+            >
+
+            مرورگر شما از پخش این فایل پشتیبانی نمی‌کند.
+
+        </audio>
+
+    </div>
+
+
+
+    <!-- آهنگ شماره ۵ -->
+
+    <div class="song">
+
+        <div class="song-header">
+
+            <div class="music-icon">
+                ♪
+            </div>
+
+            <div class="song-info">
+
+                <div class="song-name">
+                    تناسخ
+                </div>
+
+                <div class="artist">
+                    یاسین
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <audio controls>
+
+            <source
+                src="music/song5.mp3"
+                type="audio/mpeg"
+            >
+
+            مرورگر شما از پخش این فایل پشتیبانی نمی‌کند.
+
+        </audio>
+
+    </div>
+
+
+
+<!-- آهنگ شماره 6 -->
+
+    <div class="song">
+
+        <div class="song-header">
+
+            <div class="music-icon">
+                ♪
+            </div>
+
+            <div class="song-info">
+
+                <div class="song-name">
+                    تمام نا تمام
+                </div>
+
+                <div class="artist">
+                    ایهام
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <audio controls>
+
+            <source
+                src="music/song6.mp3"
+                type="audio/mpeg"
+            >
+
+            مرورگر شما از پخش این فایل پشتیبانی نمی‌کند.
+
+        </audio>
+
+    </div>
+
+
+
+<!-- آهنگ شماره ۳ -->
+
+    <div class="song">
+
+        <div class="song-header">
+
+            <div class="music-icon">
+                ♪
+            </div>
+
+            <div class="song-info">
+
+                <div class="song-name">
+                    حظ کردم
+                </div>
+
+                <div class="artist">
+                    شاهرخ
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <audio controls>
+
+            <source
+                src="music/song7.mp3"
+                type="audio/mpeg"
+            >
+
+            مرورگر شما از پخش این فایل پشتیبانی نمی‌کند.
+
+        </audio>
+
+    </div>
+
+
+
+
+<!-- آهنگ شماره ۳ -->
+
+    <div class="song">
+
+        <div class="song-header">
+
+            <div class="music-icon">
+                ♪
+            </div>
+
+            <div class="song-info">
+
+                <div class="song-name">
+                    تو فقط باش
+                </div>
+
+                <div class="artist">
+                    کوروش,رها
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <audio controls>
+
+            <source
+                src="music/song8.mp3"
+                type="audio/mpeg"
+            >
+
+            مرورگر شما از پخش این فایل پشتیبانی نمی‌کند.
+
+        </audio>
+
+    </div>
+
+
+
+<!-- آهنگ شماره ۳ -->
+
+    <div class="song">
+
+        <div class="song-header">
+
+            <div class="music-icon">
+                ♪
+            </div>
+
+            <div class="song-info">
+
+                <div class="song-name">
+                    همو داریم
+                </div>
+
+                <div class="artist">
+                    آرون
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <audio controls>
+
+            <source
+                src="music/song9.mp3"
+                type="audio/mpeg"
+            >
+
+            مرورگر شما از پخش این فایل پشتیبانی نمی‌کند.
+
+        </audio>
+
+    </div>
+
+
+
+<!-- آهنگ شماره ۳ -->
+
+    <div class="song">
+
+        <div class="song-header">
+
+            <div class="music-icon">
+                ♪
+            </div>
+
+            <div class="song-info">
+
+                <div class="song-name">
+                    با تو
+                </div>
+
+                <div class="artist">
+                    مهیار
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <audio controls>
+
+            <source
+                src="music/song10.mp3"
+                type="audio/mpeg"
+            >
+
+            مرورگر شما از پخش این فایل پشتیبانی نمی‌کند.
+
+        </audio>
+
+    </div>
+
+
+
+<!-- آهنگ شماره ۳ -->
+
+    <div class="song">
+
+        <div class="song-header">
+
+            <div class="music-icon">
+                ♪
+            </div>
+
+            <div class="song-info">
+
+                <div class="song-name">
+                    نفس
+                </div>
+
+                <div class="artist">
+                    مهدی احمدوند
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <audio controls>
+
+            <source
+                src="music/song11.mp3"
+                type="audio/mpeg"
+            >
+
+            مرورگر شما از پخش این فایل پشتیبانی نمی‌کند.
+
+        </audio>
+
+    </div>
+
+
+
+<!-- آهنگ شماره ۳ -->
+
+    <div class="song">
+
+        <div class="song-header">
+
+            <div class="music-icon">
+                ♪
+            </div>
+
+            <div class="song-info">
+
+                <div class="song-name">
+                    Gitmemiz Lazim
+                </div>
+
+                <div class="artist">
+                    Erkan
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <audio controls>
+
+            <source
+                src="music/song12.mp3"
+                type="audio/mpeg"
+            >
+
+            مرورگر شما از پخش این فایل پشتیبانی نمی‌کند.
+
+        </audio>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="note">
+
+        این آهنگ‌ها یه تکه از حس من به توِِئن؛
+        یه جای مخصوص براشون ساختم که همیشه بدونی چقدر دوست دارم ♡
+
+    </div>
+
+
+</section>
+
+
+
+<div class="footer">
+
+    made with love ♡
+
+</div>
+
+
+</div>
+
+
+</body>
+
+</html>
